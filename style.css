@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* center horizontally */
+    align-items: center;     /* center vertically */
+    }
+
+header {
+    background: linear-gradient(90deg, #ff1e00, #d90429);
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    border-radius: 30px;
+    width: 98%;
+}   
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+.container {
+    background: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+
+.container h2 {
+    font-size: 2rem;
+}
+
+.container p {
+    font-size: 1.2rem;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between; /* even space between links */
+    padding: 0 20px; /* optional padding from page edges */
+    font-size: large;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.links a:hover {
+    cursor: pointer;
+}
+
+.ferrari {
+    color: #ff1e00; /* Ferrari red */
+    font-size: larger;
+}
+
+.mercedes {
+    color: #00d2be; /* Mercedes teal */
+    font-size: larger;
+}
+
+.redbull {
+    color: #0c23a6; /* Red Bull blue */
+    font-size: larger;
+}
+
+.mclaren {
+    color: #ff8700; /* McLaren orange */
+    font-size: larger;
+}
+
+.alpine {
+    color: #FB8AE7; /* Alpine blue */
+    font-size: larger;
+}
+
+.aston {
+    color: #007A33; /* Aston Martin green */
+    font-size: larger;
+}
+
+.haas {
+    color: #E6002B; /* Haas white */
+    font-size: larger;
+}
+
+.racingbulls {
+    color: #6692FF ; /* Racing Bulls yellow */
+    font-size: larger;
+}
+
+.williams {
+    color: #0055A4; /* Williams blue */
+    font-size: larger;
+}
+
+.sauber {
+    color: green; /* Sauber green */
+    font-size: larger;
+}
+
+div:hover {
+    transform: scale(1.02);
+}
+
+.container {
+    width: 90%;
+}
